@@ -5,30 +5,24 @@ export const DEFAULT_AVATAR_URL = "https://api.dicebear.com/8.x/initials/svg?bac
 export const PAGINATION_LIMIT = 10;
 
 export const COMPANIES = [
+
     {
-        name: "Asana",
-        logo: "/assets/company-01.svg",
+        name: "Google",
+        logo: "/assets/google.svg",
     },
     {
-        name: "Tidal",
-        logo: "/assets/company-02.svg",
+        name: "Amazon",
+        logo: "/assets/amazon-logo.svg",
     },
     {
-        name: "Innovaccer",
-        logo: "/assets/company-03.svg",
+        name: "shopify",
+        logo: "/assets/shopifynew.svg",
     },
     {
-        name: "Linear",
-        logo: "/assets/company-04.svg",
+        name: "Ebay",
+        logo: "/assets/ebay.svg",
     },
-    {
-        name: "Raycast",
-        logo: "/assets/company-05.svg",
-    },
-    {
-        name: "Labelbox",
-        logo: "/assets/company-06.svg",
-    }
+
 ] as const;
 
 export const PROCESS = [
