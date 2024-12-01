@@ -12,6 +12,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { ArrowRightIcon, CreditCardIcon, StarIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import TypingAnimation from "@/components/ui/typing-animation";
 
 const HomePage = async () => {
 
@@ -295,15 +296,19 @@ const HomePage = async () => {
             </MaxWidthWrapper>
 
             {/* CTA Section */}
-            <MaxWidthWrapper className="mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide">
+            <MaxWidthWrapper className="mb-48 max-w-[100vw] overflow-x-hidden scrollbar-hide">
                 <AnimationContainer delay={0.1}>
-                    <LampContainer>
+                   
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
-                            <h2 className="bg-gradient-to-b from-neutral-200 to-neutral-400 py-4 bg-clip-text text-center text-4xl md:text-7xl !leading-[1.15] font-medium font-heading tracking-tight text-transparent mt-8">
-                                Step into the future of link management
-                            </h2>
+                           
+                           <TypingAnimation
+    className="bg-gradient-to-b from-neutral-200 to-neutral-400 py-4 bg-clip-text text-center text-4xl md:text-7xl !leading-[1.15] font-medium font-heading tracking-tight text-transparent mt-8"
+      text="Step into the future of eCommerce management"
+    />
+                          
+                       
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Experience the cutting-edge solution that transforms how you handle your links. Elevate your online presence with our next-gen platform.
+                            Unlock the next level of online selling with our innovative platform. Streamline your operations, boost your sales, and elevate your customer experience like never before.
                             </p>
                             <div className="mt-6">
                                 <Button>
@@ -312,7 +317,7 @@ const HomePage = async () => {
                                 </Button>
                             </div>
                         </div>
-                    </LampContainer>
+                
                 </AnimationContainer>
             </MaxWidthWrapper>
 
