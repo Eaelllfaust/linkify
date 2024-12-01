@@ -1,5 +1,6 @@
 import React from 'react'
 import blogs from "@/utils/constants/blogs.json";
+
 interface Props {
     params: {
         slug: string

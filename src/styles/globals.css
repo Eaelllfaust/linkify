@@ -102,7 +102,7 @@ html, body {
 }
 
 .gradient {
-  background: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(34, 197, 94) 0deg, rgb(132, 204, 22) 360deg);
+  background: conic-gradient(from 230.29deg at 51.63% 52.16%, #ffd500 0deg, rgb(30, 255, 0) 360deg);
 }
 
 .not-found {

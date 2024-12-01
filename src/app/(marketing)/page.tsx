@@ -36,9 +36,9 @@ const HomePage = async () => {
                             </span>
                         </button>
                         <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
-                          Modern stores for <span className="text-transparent bg-gradient-to-r from-green-500 to-lime-500 bg-clip-text inline-bloc">
-                               Modern sellers
-                            </span>
+                          AI powered stores for <span className="text-transparent bg-gradient-to-r from-green-500 to-[#ffd500] bg-clip-text inline-block">
+   Modern sellers
+</span>
                         </h1>
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
                             Quickly setup a storefront and sell using Nexigo. We manage the rest.

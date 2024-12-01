@@ -16,11 +16,15 @@ const SignInForm = () => {
     const { signIn, isLoaded, setActive } = useSignIn();
 
     const [email, setEmail] = useState<string>("");
+
     const [password, setPassword] = useState<string>("");
+
     const [showPassword, setShowPassword] = useState<boolean>(false);
+
     const [isLoading, setIsLoading] = useState<boolean>(false);
 
     const handleSignIn = async (e: React.FormEvent) => {
+        
         e.preventDefault();
 
         if (!isLoaded) return;
@@ -71,11 +75,11 @@ const SignInForm = () => {
     };
 
     return (
+
         <div className="flex flex-col items-start gap-y-6 py-8 w-full px-0.5">
             <h2 className="text-2xl font-semibold">
                 Sign in to Nexigo
             </h2>
-
             <form onSubmit={handleSignIn} className="w-full">
                 <div className="space-y-2 w-full">
                     <Label htmlFor="email">
@@ -91,6 +95,7 @@ const SignInForm = () => {
                         className="w-full focus-visible:border-foreground"
                     />
                 </div>
+
                 <div className="mt-4 space-y-2">
                     <Label htmlFor="password">
                         Password
@@ -120,6 +125,7 @@ const SignInForm = () => {
                         </Button>
                     </div>
                 </div>
+
                 <div className="mt-4 w-full">
                     <Button
                         type="submit"
