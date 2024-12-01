@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - The Link Management Platform for Businesses`,
-    description = `${process.env.NEXT_PUBLIC_APP_NAME} is the link management platform for businesses. It helps you build, brand, and track your links.`,
+    title = `${process.env.NEXT_PUBLIC_APP_NAME} - The modern ecommerce solution for modern businesses`,
+    description = `${process.env.NEXT_PUBLIC_APP_NAME} Provides modern businesses with advanced solutions for managing the businesses online, and securely.`,
     image = "/thumbnail.png",
     icons = [
         {

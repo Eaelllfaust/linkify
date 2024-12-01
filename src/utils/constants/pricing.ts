@@ -97,22 +97,21 @@
 //     },
 // ];
 
-// export const WORKSPACE_LIMIT = 2;
+
 export const PLANS = [
     {
-        name: "Free",
+        name: "Basic",
         info: "For most individuals",
         price: {
             monthly: 0,
             yearly: 0,
         },
         features: [
-            { text: "Shorten links" },
-            { text: "Up to 100 tags", limit: "100 tags" },
-            { text: "Customizable branded links" },
-            { text: "Track clicks", tooltip: "1K clicks/month" },
-            { text: "Community support", tooltip: "Get answers your questions on discord" },
-            { text: "AI powered suggestions", tooltip: "Get up to 100 AI powered suggestions" },
+            { text: "20 products" },
+            { text: "Unlimited sales"},
+            { text: "Optimal support" },
+            { text: "Assign reps" },
+            { text: "Customer analytics" },
         ],
         btn: {
             text: "Start for free",
@@ -124,17 +123,16 @@ export const PLANS = [
         name: "Pro",
         info: "For small businesses",
         price: {
-            monthly: 9,
-            yearly: Math.round(9 * 12 * (1 - 0.12)),
+            monthly: "10,000",
+            yearly: Math.round(10000 * 12 * (1 - 0.12)),
         },
         features: [
-            { text: "Shorten links" },
-            { text: "Up to 500 tags", limit: "500 tags" },
-            { text: "Customizable branded links" },
-            { text: "Track clicks", tooltip: "20K clicks/month" },
-            { text: "Export click data", tooltip: "Upto 1K links" },
-            { text: "Priority support", tooltip: "Get 24/7 chat support" },
-            { text: "AI powered suggestions", tooltip: "Get up to 500 AI powered suggestions" },
+            { text: "50 products" },
+            { text: "Unlimited sales"},
+            { text: "Optimal support" },
+            { text: "Assign reps" },
+            { text: "Customer analytics" },
+            
         ],
         btn: {
             text: "Get started",
@@ -146,17 +144,15 @@ export const PLANS = [
         name: "Business",
         info: "For large organizations",
         price: {
-            monthly: 49,
-            yearly: Math.round(49 * 12 * (1 - 0.12)),
+            monthly: "20,000",
+            yearly: Math.round(20000 * 12 * (1 - 0.12)),
         },
         features: [
-            { text: "Shorten links" },
-            { text: "Unlimited tags" },
-            { text: "Customizable branded links" },
-            { text: "Track clicks", tooltip: "Unlimited clicks" },
-            { text: "Export click data", tooltip: "Unlimited clicks" },
-            { text: "Dedicated manager", tooltip: "Get priority support from our team" },
-            { text: "AI powered suggestions", tooltip: "Get unlimited AI powered suggestions" },
+            { text: "Unlimited products" },
+            { text: "Unlimited sales"},
+            { text: "Optimal support" },
+            { text: "Assign reps" },
+            { text: "Customer analytics" },
         ],
         btn: {
             text: "Contact team",

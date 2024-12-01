@@ -1,4 +1,4 @@
-import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon } from "lucide-react";
+import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCodeIcon, Shield, Users, MessageCircle } from "lucide-react";
 
 export const NAV_LINKS = [
     {
@@ -6,28 +6,22 @@ export const NAV_LINKS = [
         href: "/features",
         menu: [
             {
-                title: "Link Shortening",
-                tagline: "Shorten links and track their performance.",
-                href: "/features/link-shortening",
-                icon: Link2Icon,
+                title: "Store Protection",
+                tagline: "Protect your store with fraud detection and security tools.",
+                href: "/features/store-protection",
+                icon: Shield,
             },
             {
-                title: "Password Protection",
-                tagline: "Secure your links with a password.",
-                href: "/features/password-protection",
-                icon: LockIcon,
+                title: "Customer Insights",
+                tagline: "Understand your customers’ needs with actionable insights.",
+                href: "/features/customer-insights",
+                icon: Users,
             },
             {
-                title: "Advanced Analytics",
-                tagline: "Gain insights into who is clicking your links.",
-                href: "/features/analytics",
-                icon: LineChartIcon,
-            },
-            {
-                title: "Custom QR Codes",
-                tagline: "Use QR codes to reach your audience.",
-                href: "/features/qr-codes",
-                icon: QrCodeIcon,
+                title: "Communication Channels",
+                tagline: "Centralize all customer interactions in one place.",
+                href: "/features/communication-channels",
+                icon: MessageCircle,
             },
         ],
     },

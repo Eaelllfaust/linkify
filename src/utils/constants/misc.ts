@@ -1,4 +1,4 @@
-import { BarChart3Icon, FolderOpenIcon, WandSparklesIcon } from "lucide-react";
+import {FolderOpenIcon, Package, PackageIcon, PieChart, ShoppingBag} from "lucide-react";
 
 export const DEFAULT_AVATAR_URL = "https://api.dicebear.com/8.x/initials/svg?backgroundType=gradientLinear&backgroundRotation=0,360&seed=";
 
@@ -6,17 +6,14 @@ export const PAGINATION_LIMIT = 10;
 
 export const COMPANIES = [
 
-    {
-        name: "Google",
-        logo: "/assets/google.svg",
-    },
+
     {
         name: "Amazon",
         logo: "/assets/amazon-logo.svg",
     },
     {
         name: "shopify",
-        logo: "/assets/shopifynew.svg",
+        logo: "/assets/shopify.svg",
     },
     {
         name: "Ebay",
@@ -27,19 +24,19 @@ export const COMPANIES = [
 
 export const PROCESS = [
     {
-        title: "Organize Your Links",
-        description: "Efficiently categorize and tag your links for quick access and easy management.",
-        icon: FolderOpenIcon,
+        title: "Setup your store",
+        description: "Create an account for your business and fulfil compliance",
+        icon: PackageIcon,
     },
     {
-        title: "Shorten and Customize",
-        description: "Create concise, branded links that are easy to share and track.",
-        icon: WandSparklesIcon,
+        title: "Upload products",
+        description: "Easily upload your products and setup pricing",
+        icon: ShoppingBag,
     },
     {
-        title: "Analyze and Optimize",
-        description: "Gain insights into link performance and optimize for better engagement.",
-        icon: BarChart3Icon,
+        title: "Manage and track",
+        description: "Track sales across multiple products and track customer behaviour",
+        icon: PieChart,
     },
 ] as const;
 
@@ -72,66 +69,67 @@ export const FEATURES = [
 
 export const REVIEWS = [
     {
-        name: "Michael Smith",
-        username: "@michaelsmith",
-        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+        name: "Kenneth Okpala",
+        username: "@kennethokpala",
+        avatar: "https://randomuser.me/api/portraits/men/6.jpg",
         rating: 5,
-        review: "This tool is a lifesaver! Managing and tracking my links has never been easier. A must-have for anyone dealing with numerous links."
+        review: "Nexigo has allowed us to sell out on every product launch; their streamlined and fast systems are unbeatable."
     },
     {
-        name: "Emily Johnson",
-        username: "@emilyjohnson",
-        avatar: "https://randomuser.me/api/portraits/women/1.jpg",
+        name: "Tolu Adesanya",
+        username: "@tolusells",
+        avatar: "https://randomuser.me/api/portraits/men/7.jpg",
+        rating: 5,
+        review: "Nexigo transformed our online business! The customer insights feature is a game-changer—we now understand our buyers like never before."
+    },
+    {
+        name: "Chioma Nwafor",
+        username: "@chiomascloset",
+        avatar: "https://randomuser.me/api/portraits/women/6.jpg",
+        rating: 5,
+        review: "I love how Nexigo handles settlements and disputes. It’s like having a dedicated legal team on standby—smooth and efficient!"
+    },
+    {
+        name: "Emeka Ugwu",
+        username: "@ugwuemeka",
+        avatar: "https://randomuser.me/api/portraits/men/8.jpg",
+        rating: 5,
+        review: "Thanks to Nexigo, our sales have doubled. The customer analytics give us real-time data to make smart decisions."
+    },
+    {
+        name: "Aisha Abdullahi",
+        username: "@aisha_trendz",
+        avatar: "https://randomuser.me/api/portraits/women/7.jpg",
+        rating: 5,
+        review: "Selling online is less stressful with Nexigo. The communication tools make keeping up with customers so easy and professional."
+    },
+    {
+        name: "Funmi Alabi",
+        username: "@funmialabi",
+        avatar: "https://randomuser.me/api/portraits/women/8.jpg",
+        rating: 5,
+        review: "With Nexigo’s store protection, I feel secure running my business. It’s reassuring to know my store is safe from fraud and chargebacks."
+    },
+    {
+        name: "Segun Adewale",
+        username: "@segunskitchen",
+        avatar: "https://randomuser.me/api/portraits/men/9.jpg",
+        rating: 5,
+        review: "Nexigo has been a blessing for my business. Their platform is reliable, and I can focus on my products while they handle the heavy lifting!"
+    },
+    {
+        name: "Ada Umeh",
+        username: "@adaumeh",
+        avatar: "https://randomuser.me/api/portraits/women/9.jpg",
         rating: 4,
-        review: "Very useful app! It has streamlined my workflow considerably. A few minor bugs, but overall a great experience."
+        review: "I appreciate how easy Nexigo is to use. The learning curve was minimal, and my team loves the customer insights feature!"
     },
     {
-        name: "Daniel Williams",
-        username: "@danielwilliams",
-        avatar: "https://randomuser.me/api/portraits/men/2.jpg",
+        name: "Yusuf Bello",
+        username: "@yusufbello",
+        avatar: "https://randomuser.me/api/portraits/men/10.jpg",
         rating: 5,
-        review: "I've been using this app daily for months. The insights and analytics it provides are invaluable. Highly recommend it!"
-    },
-    {
-        name: "Sophia Brown",
-        username: "@sophiabrown",
-        avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-        rating: 4,
-        review: "This app is fantastic! It offers everything I need to manage my links efficiently."
-    },
-    {
-        name: "James Taylor",
-        username: "@jamestaylor",
-        avatar: "https://randomuser.me/api/portraits/men/3.jpg",
-        rating: 5,
-        review: "Absolutely love this app! It's intuitive and feature-rich. Has significantly improved how I manage and track links."
-    },
-    {
-        name: "Olivia Martinez",
-        username: "@oliviamartinez",
-        avatar: "https://randomuser.me/api/portraits/women/3.jpg",
-        rating: 4,
-        review: "Great app with a lot of potential. It has already saved me a lot of time. Looking forward to future updates and improvements."
-    },
-    {
-        name: "William Garcia",
-        username: "@williamgarcia",
-        avatar: "https://randomuser.me/api/portraits/men/4.jpg",
-        rating: 5,
-        review: "This app is a game-changer for link management. It's easy to use, extremely powerful and highly recommended!"
-    },
-    {
-        name: "Mia Rodriguez",
-        username: "@miarodriguez",
-        avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        rating: 4,
-        review: "I've tried several link management tools, but this one stands out. It's simple, effective."
-    },
-    {
-        name: "Henry Lee",
-        username: "@henrylee",
-        avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-        rating: 5,
-        review: "This app has transformed my workflow. Managing and analyzing links is now a breeze. I can't imagine working without it."
-    },
+        review: "The analytics tools on Nexigo are unmatched! We’ve been able to refine our marketing strategies with the data provided."
+    }
 ] as const;
+
