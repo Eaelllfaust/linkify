@@ -8,19 +8,19 @@ export const NAV_LINKS = [
             {
                 title: "Store Protection",
                 tagline: "Protect your store with fraud detection and security tools.",
-                href: "/features/store-protection",
+                href: "/",
                 icon: Shield,
             },
             {
                 title: "Customer Insights",
                 tagline: "Understand your customers’ needs with actionable insights.",
-                href: "/features/customer-insights",
+                href: "/",
                 icon: Users,
             },
             {
                 title: "Communication Channels",
                 tagline: "Centralize all customer interactions in one place.",
-                href: "/features/communication-channels",
+                href: "/",
                 icon: MessageCircle,
             },
         ],
